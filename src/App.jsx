@@ -1,11 +1,12 @@
 import { Switch, Route, Redirect } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
 import { publicRoutes, privateRoutes } from "./routes";
 import Page404 from "./views/404";
 
 function App() {
   return (
-    <div>
+    <Container fluid className="bg-danger p-0">
       <Switch>
         {publicRoutes.map((route, index) => (
           <Route key={index} {...route} />
@@ -18,7 +19,7 @@ function App() {
         ))}
         <Redirect to="products" />
       </Switch> */}
-    </div>
+    </Container>
   );
 }
 
