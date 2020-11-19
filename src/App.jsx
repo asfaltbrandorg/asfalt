@@ -6,7 +6,7 @@ import Page404 from "./views/404";
 
 function App() {
   return (
-    <Container fluid className="bg-danger p-0">
+    <Container fluid className="p-0">
       <Switch>
         {publicRoutes.map((route, index) => (
           <Route key={index} {...route} />

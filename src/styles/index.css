@@ -1,3 +1,35 @@
+@font-face {
+  font-family: "sample";
+  src: url(../assets/fonts/traffic.ttf);
+  font-weight: normal;
+}
+
 body {
   margin: 0;
+  font-family: "sample";
+}
+
+* {
+  font-family: "sample";
+}
+
+/* Utilities */
+.bg-black {
+  background-color: #000000;
+}
+
+.bg-yellow {
+  background-color: #ead629;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.drop-shadow {
+  filter: drop-shadow(2px 4px 5px #000000);
 }
