@@ -3,7 +3,11 @@ import Landing2 from "./views/Public/Landing2";
 import Products from "./views/Public/Products";
 import SingleProduct from './views/Public/SingleProduct';
 import Customers from './views/Public/Costumers';
-import Product2 from './views/Public/Products2'
+import Products2 from './views/Public/Products2'
+import Products3 from './views/Public/Products3'
+import Products4 from './views/Public/Products4'
+import Products5 from './views/Public/Products5'
+import Products6 from './views/Public/Products6'
 
 import Cart from './views/Private/Cart';
 import Profile from './views/Private/Profile';
@@ -30,7 +34,27 @@ export const publicRoutes = [
     {
         path: "/products2",
         exact: true,
-        component: Product2
+        component: Products2
+    },
+    {
+        path: "/products3",
+        exact: true,
+        component: Products3
+    },
+    {
+        path: "/products4",
+        exact: true,
+        component: Products4
+    },
+    {
+        path: "/products5",
+        exact: true,
+        component: Products5
+    },
+    {
+        path: "/products6",
+        exact: true,
+        component: Products6
     },
     {
         path: "/product/:productSlug",
