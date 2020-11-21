@@ -9,6 +9,7 @@ const footerStyles1 = {
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
   backgroundPosition: "center",
+  height: "100%",
 };
 
 const footerStyles2 = {
@@ -28,21 +29,16 @@ const socialSizeStyle = {
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-center text-light shadow-lg">
-      <div>
-        <div style={footerStyles1} className="d-flex justify-content-center align-items-center">
-          <div style={socialSizeStyle} className="d-flex align-items-center">
-            <div className="mx-1 d-flex justify-content-center align-items-center">
-              <FontAwesomeIcon className="m-4 cursor-pointer drop-white-shadow" icon={faEnvelope} size="2x" />
-            </div>
-            <div className="mx-1 d-flex justify-content-center align-items-center">
-              <FontAwesomeIcon className="m-4 cursor-pointer drop-white-shadow" icon={faInstagram} size="2x" />
-            </div>
+    <footer style={{ height: "75px" }} className="bg-dark text-center text-light shadow-lg">
+      <div style={footerStyles1} className="d-flex justify-content-center align-items-center">
+        <div style={socialSizeStyle} className="d-flex align-items-center">
+          <div className="mx-1 d-flex justify-content-center align-items-center">
+            <FontAwesomeIcon className="m-4 cursor-pointer drop-white-shadow" icon={faEnvelope} size="2x" />
+          </div>
+          <div className="mx-1 d-flex justify-content-center align-items-center">
+            <FontAwesomeIcon className="m-4 cursor-pointer drop-white-shadow" icon={faInstagram} size="2x" />
           </div>
         </div>
-      </div>
-      <div style={footerStyles2} className="bg-yellow">
-        <span className="text-black font-weight-bold drop-shadow">.کلیه حقوق این سایت متعلق به آسفالت می‌باشد</span>
       </div>
     </footer>
   );
