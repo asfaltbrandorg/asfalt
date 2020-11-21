@@ -27,32 +27,32 @@ export const publicRoutes = [
         component: Landing2
     },
     {
-        path: "/products",
+        path: "/products1",
         exact: true,
         component: Products
     },
     {
-        path: "/products2",
+        path: "products2",
         exact: true,
         component: Products2
     },
     {
-        path: "/products3",
+        path: "/2/products1",
         exact: true,
         component: Products3
     },
     {
-        path: "/products4",
+        path: "/2/products2",
         exact: true,
         component: Products4
     },
     {
-        path: "/products5",
+        path: "/2/products3",
         exact: true,
         component: Products5
     },
     {
-        path: "/products6",
+        path: "/2/products4",
         exact: true,
         component: Products6
     },
