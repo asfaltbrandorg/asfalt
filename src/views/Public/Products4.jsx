@@ -1,5 +1,5 @@
 import Header2 from "../../components/Header2";
-import Footer from "../../components/Footer";
+import Footer2 from "../../components/Footer2";
 import LeftRow from "../../components/productsPage/LeftRow";
 import RightRow from "../../components/productsPage/RightRow";
 import productsBackground from "../../assets/images/bg (3).jpg";
@@ -23,7 +23,7 @@ const Products = () => {
         <RightRow />
         <LeftRow />
       </div>
-      <Footer />
+      <Footer2 />
     </div>
   );
 };
