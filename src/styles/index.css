@@ -3,14 +3,15 @@
   src: url(../assets/fonts/traffic.ttf);
   font-weight: normal;
 }
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 body {
   margin: 0;
   font-family: "sample";
 }
 
-* {
-  font-family: "sample";
+a:hover {
+  text-decoration: none;
 }
 
 /* Utilities */
@@ -32,4 +33,14 @@ body {
 
 .drop-shadow {
   filter: drop-shadow(2px 4px 5px #000000);
+  transition: all 0.3s;
+}
+
+.drop-white-shadow:hover {
+  filter: drop-shadow(2px 4px 5px #ffffff);
+  transition: all 0.1s;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif;
 }

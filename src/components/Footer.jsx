@@ -9,11 +9,11 @@ const socialSizeStyle = {
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-center text-light">
+    <footer className="bg-dark text-center text-light shadow-lg">
       <div className="bg-black p-2">
         <div className="d-flex justify-content-center align-items-center">
           <div style={socialSizeStyle} className="bg-black p-2 mx-2 d-flex justify-content-center align-items-center">
-            <FontAwesomeIcon className="m-2 cursor-pointer" icon={faEnvelope} size="lg" />
+            <FontAwesomeIcon className="m-2 cursor-pointer" icon={faEnvelope} size="2x" />
           </div>
           <div style={socialSizeStyle} className="bg-black p-2 mx-2 d-flex justify-content-center align-items-center">
             <FontAwesomeIcon className="m-2 cursor-pointer" icon={faInstagram} size="2x" />
