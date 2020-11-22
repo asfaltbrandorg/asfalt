@@ -9,7 +9,7 @@ const socialSizeStyle = {
 
 const Footer = () => {
   return (
-    <footer style={{ height: "75px" }} className="bg-dark text-center text-light shadow-lg">
+    <footer style={{ height: "75px" }} className="bg-dark text-center text-light shadow-lg w-100">
       <div className="bg-black p-2 h-100">
         <div className="d-flex justify-content-center align-items-center">
           <div style={socialSizeStyle} className="bg-black p-2 mx-2 d-flex justify-content-center align-items-center">

@@ -12,50 +12,8 @@ const Products = () => {
         <Header3 />
       </div>
       <div style={{ height: "85px" }}></div>
-      <div style={{ border: "3px solid black", width: "900px" }} className="my-2">
+      <div style={{ width: "900px" }} className="mt-2">
         <Row className="m-0">
-          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
-            <Product4 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
-            <Product4 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
-            <Product4 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
-            <Product4 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
-            <Product4 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
-            <Product4 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border p-0" xs={12}>
-            <img src={rowImage1} className="w-100" />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
-            <Product4 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
-            <Product4 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
-            <Product4 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
-            <Product4 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
-            <Product4 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
-            <Product4 />
-          </Col>
-          <Col className="d-flex justify-content-center align-items-center border p-0" xs={12}>
-            <img src={rowImage2} className="w-100" />
-          </Col>
           <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
             <Product4 />
           </Col>
@@ -76,6 +34,30 @@ const Products = () => {
           </Col>
         </Row>
       </div>
+      <img src={rowImage1} className="w-100" />
+      <div style={{ width: "900px" }} className="mt-2">
+        <Row className="m-0">
+          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
+            <Product4 />
+          </Col>
+          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
+            <Product4 />
+          </Col>
+          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
+            <Product4 />
+          </Col>
+          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
+            <Product4 />
+          </Col>
+          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
+            <Product4 />
+          </Col>
+          <Col className="d-flex justify-content-center align-items-center border" xs={12} sm={6} md={6} lg={4}>
+            <Product4 />
+          </Col>
+        </Row>
+      </div>
+      <img src={rowImage2} className="w-100" />
       <Footer />
     </div>
   );
