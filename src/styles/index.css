@@ -44,3 +44,17 @@ a:hover {
 .font-lato {
   font-family: "Lato", sans-serif;
 }
+
+.border-bottom-hover {
+  transition: all 0.3s;
+}
+
+.border-bottom-hover:hover {
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+  transition: all 0.1s;
+}
+
+.text-gray {
+  color: #b8b8b8;
+}

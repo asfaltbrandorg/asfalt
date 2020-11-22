@@ -1,5 +1,6 @@
 import Landing from "./views/Public/Landing";
 import Landing2 from "./views/Public/Landing2";
+import Landing3 from "./views/Public/Landing3";
 import Products from "./views/Public/Products";
 import SingleProduct from './views/Public/SingleProduct';
 import Customers from './views/Public/Costumers';
@@ -8,6 +9,9 @@ import Products3 from './views/Public/Products3'
 import Products4 from './views/Public/Products4'
 import Products5 from './views/Public/Products5'
 import Products6 from './views/Public/Products6'
+import Products31 from './views/Public/Products31'
+import Products32 from './views/Public/Products32'
+import Products33 from './views/Public/Products33'
 
 import Cart from './views/Private/Cart';
 import Profile from './views/Private/Profile';
@@ -25,6 +29,11 @@ export const publicRoutes = [
         path: "/2",
         exact: true,
         component: Landing2
+    },
+    {
+        path: "/3",
+        exact: true,
+        component: Landing3
     },
     {
         path: "/products1",
@@ -55,6 +64,21 @@ export const publicRoutes = [
         path: "/2/products4",
         exact: true,
         component: Products6
+    },
+    {
+        path: "/3/products1",
+        exact: true,
+        component: Products31
+    },
+    {
+        path: "/3/products2",
+        exact: true,
+        component: Products32
+    },
+    {
+        path: "/3/products3",
+        exact: true,
+        component: Products33
     },
     {
         path: "/product/:productSlug",
