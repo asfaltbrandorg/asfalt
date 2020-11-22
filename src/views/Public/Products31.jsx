@@ -1,8 +1,7 @@
 import Header3 from "../../components/Header3";
 import Footer from "../../components/Footer";
-import LeftRow from "../../components/productsPage/LeftRow";
-import RightRow from "../../components/productsPage/RightRow";
-import productsBackground from "../../assets/images/1507_V-1.jpg";
+import LeftRow2 from "../../components/productsPage/LeftRow2";
+import RightRow2 from "../../components/productsPage/RightRow2";
 
 const Products = () => {
   return (
@@ -12,9 +11,9 @@ const Products = () => {
       </div>
       <div style={{ height: "85px" }}></div>
       <div>
-        <LeftRow />
-        <RightRow />
-        <LeftRow />
+        <LeftRow2 />
+        <RightRow2 />
+        <LeftRow2 />
       </div>
       <Footer />
     </div>

@@ -19,7 +19,7 @@ class Product extends Component {
 
   render() {
     return (
-      <div className="product" ref="box1" data-aos-delay="2000" data-aos-duration="2000" style={{ width: "250px" }} className="m-3">
+      <div className="product" ref="box1" style={{ width: "250px" }} className="m-3">
         <img className="w-100" src={HoodieImage} alt="Asfalt brand hoodie" />
         <div className="d-flex flex-column align-items-center h5 text-center mt-4">
           <span className="font-lato text-white">asfalt - zed hoodie</span>
