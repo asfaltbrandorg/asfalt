@@ -2,7 +2,7 @@ import HoodieImage from "../../assets/images/hoodies/HOODIE.jpg";
 
 const Product = () => {
   return (
-    <div className="m-3 shadow-lg rounded" style={{ width: "250px" }}>
+    <div className="m-3 shadow-lg rounded hover-shadow" style={{ width: "250px" }}>
       <img className="w-100" src={HoodieImage} alt="Asfalt brand hoodie" />
       <div className="d-flex flex-column align-items-center h5 text-center mt-4">
         <span className="font-lato">asfalt - zed hoodie</span>

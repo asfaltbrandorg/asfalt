@@ -58,3 +58,12 @@ a:hover {
 .text-gray {
   color: #b8b8b8;
 }
+
+.hover-shadow {
+  transition: all 0.3s;
+}
+
+.hover-shadow:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
