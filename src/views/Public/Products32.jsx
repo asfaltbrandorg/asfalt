@@ -4,16 +4,9 @@ import productsBackground from "../../assets/images/wallpaperflare.com_wallpaper
 import { Col, Row } from "react-bootstrap";
 import Product2 from "../../components/productsPage/Product2";
 
-const backgroundStyles = {
-  backgroundImage: `url("${productsBackground}")`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  backgroundAttachment: "fixed",
-};
-
 const Products = () => {
   return (
-    <div style={backgroundStyles}>
+    <div>
       <div style={{ height: "85px", zIndex: "1000" }} className="position-fixed w-100 drop-shadow">
         <Header3 />
       </div>
