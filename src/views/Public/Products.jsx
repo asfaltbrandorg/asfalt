@@ -6,9 +6,7 @@ import productsBackground from "../../assets/images/wallpaperflare.com_wallpaper
 
 const backgroundStyles = {
   backgroundImage: `url("${productsBackground}")`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  backgroundAttachment: "fixed",
+  backgroundSize: "contain",
 };
 
 const Products = () => {

@@ -6,9 +6,7 @@ import Product2 from "../../components/productsPage/Product2";
 
 const backgroundStyles = {
   backgroundImage: `url("${productsBackground}")`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  backgroundAttachment: "fixed",
+  backgroundSize: "contain",
 };
 
 const Products = () => {

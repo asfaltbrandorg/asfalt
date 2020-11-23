@@ -6,9 +6,9 @@ import productsBackground from "../../assets/images/1507_V-1.jpg";
 
 const backgroundStyles = {
   backgroundImage: `url("${productsBackground}")`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  backgroundAttachment: "fixed",
+  // backgroundRepeat: "no-repeat",
+  backgroundSize: "contain",
+  // backgroundAttachment: "fixed",
 };
 
 const Products = () => {
