@@ -1,7 +1,7 @@
 import { Component } from "react";
 import sr from "../../ScrollReveal";
 
-import HoodieImage from "../../assets/images/hoodies/HOODIE.jpg";
+import HoodieImage from "../../assets/images/backtire.png";
 
 class Product extends Component {
   componentDidMount = () => {

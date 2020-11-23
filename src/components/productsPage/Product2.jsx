@@ -1,4 +1,4 @@
-import HoodieImage from "../../assets/images/hoodies/HOODIE.jpg";
+import HoodieImage from "../../assets/images/backtire.png";
 
 const Product = () => {
   return (
